@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
-
+import TopShows from './TopShows';
 
 function Home() {
     
@@ -77,8 +77,14 @@ function Home() {
                 
                  </div>  
               ))
-          }              
+          }
+
+          <h2> Top Tv Shows and Movies</h2>
+          <TopShows />
+
       </div>
+
+
     );
 
   }
